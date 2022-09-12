@@ -22,8 +22,8 @@
 
 ## How to run the application
 
-Clone the application and access the `NLW-eSports` folder
+Clone the application and access the `nlw-esports` folder
 
 ```bash
-$ git clone https://github.com/eliasmatheus/NLW-eSports.git && cd NLW-eSports
+$ git clone https://github.com/eliasmatheus/nlw-esports.git && cd nlw-esports
 ```
