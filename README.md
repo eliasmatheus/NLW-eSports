@@ -8,7 +8,7 @@
 <br />
 
 <p align="center">
-  <img src="./public/screen.jpeg" alt="My Project GIF">
+  <img src="./public/screen.jpeg" alt="My Project GIF" style="border-radius: 12px;">
 </p>
 
 ## Technologies
