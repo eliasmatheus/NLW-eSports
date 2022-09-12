@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">NLW eSports</h1>
-<h3 align="center">An application to find partners or, as we prefer, a duo, to play your favorite games</h3>
+<h3 align="center">An application to find partners or, as we prefer, a <i>duo</i>, to play your favorite games</h3>
 
 <br />
 
