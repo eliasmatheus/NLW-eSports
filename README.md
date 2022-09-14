@@ -17,7 +17,7 @@
 - Node.js
 - React Native
 - Express
-- Styled-Components
+- Tailwind CSS
 - Typescript
 
 ## How to run the application
