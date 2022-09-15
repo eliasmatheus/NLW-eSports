@@ -25,7 +25,7 @@
 - Prisma
 - SQLite
 
-## How to run the application
+# How to run the application
 
 Clone the application and access the `nlw-esports` folder
 
@@ -33,15 +33,34 @@ Clone the application and access the `nlw-esports` folder
 $ git clone https://github.com/eliasmatheus/nlw-esports.git && cd nlw-esports
 ```
 
-### Server
+## Server
 
-Access the `server` folder with `cd server` and install dependencies with `npm i` then:
+### Requirements
+
+- Node.js
+
+### 1. Install server dependencies:
+
+```sh
+npm install     # npm
+yarn            # yarn
+```
+
+### 2. Create and seed the database
+
+Run the following command to create your SQLite database file. This also creates the `Ads` and `Games` tables:
+
+```
+npx prisma migrate dev --name init
+```
+
+### 3. Start the server:
 
 ```bash
 $ npm run dev
 ```
 
-### Web
+## Web
 
 Access the `web` folder with `cd web` and install dependencies with `npm i` then:
 
@@ -49,7 +68,7 @@ Access the `web` folder with `cd web` and install dependencies with `npm i` then
 $ npm run dev
 ```
 
-### Mobile
+## Mobile
 
 Access the `mobile` folder with `cd mobile` and install dependencies with `npm i` then:
 
