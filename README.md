@@ -13,12 +13,17 @@
 
 ## Technologies
 
-- React
-- Node.js
-- React Native
-- Express
-- Tailwind CSS
 - Typescript
+
+- React
+- Tailwind CSS
+- React Native
+- Expo
+
+- Node.js
+- Express
+- Prisma
+- SQLite
 
 ## How to run the application
 
@@ -26,4 +31,28 @@ Clone the application and access the `nlw-esports` folder
 
 ```bash
 $ git clone https://github.com/eliasmatheus/nlw-esports.git && cd nlw-esports
+```
+
+### Server
+
+Access the `server` folder with `cd server` and install dependencies with `npm i` then:
+
+```bash
+$ npm run dev
+```
+
+### Web
+
+Access the `web` folder with `cd web` and install dependencies with `npm i` then:
+
+```bash
+$ npm run dev
+```
+
+### Mobile
+
+Access the `mobile` folder with `cd mobile` and install dependencies with `npm i` then:
+
+```bash
+$ expo start
 ```
